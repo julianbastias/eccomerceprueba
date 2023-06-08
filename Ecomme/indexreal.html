@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosreal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>La Sadá</title>
+</head>
+
+<body>
+    <div class="navegacion">
+        <nav class="navbar">
+            <img src="./assets/img/logopng.png" alt="">
+            <ul class="listado">
+                <li>
+                    <button id="todos" class="boton-menu boton-categoria active"></i> Productos</button>
+                    <div class="submenu">
+                        <div class="submenu-items">
+                            <ul>
+                                <li>
+                                    <button id="abrigos" class="boton-menu boton-categoria">Abrigos</button>
+                                </li>
+                                <li>
+                                    <button id="camisetas" class="boton-menu boton-categoria">Camisetas</button>
+                                </li>
+                                <li>
+                                    <button id="pantalones" class="boton-menu boton-categoria">Pantalones</button>
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li><a href="./contactos.html">Contacto</a></li>
+                <li>
+                    <a class="boton-menu boton-carrito" href="./carrito.html">
+                        <i class="fa-solid fa-cart-shopping"></i><span id="numerito" class="numerito">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div> 
+    <main>
+        <h2 class="titulo-principal" id="titulo-principal">Nuestros Productos</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+            <!-- Esto se va a rellenar con JS -->
+        </div>
+    </main>
+    </div>
+    <footer>
+        <p class="texto-footer">© 2022 Julián Bastías</p>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="./carrito.js"></script>
+</body>
+</html>

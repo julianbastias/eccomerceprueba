@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contactos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navegacion">
+        <nav class="navbar">
+            <a href="./indexreal.html" ><img class="imglogo" src="./assets/img/logopng.png" alt=""></a>
+            <ul class="listado">
+                <li>
+                    <button id="todos" class="boton-menu boton-categoria active"></i> Productos</button>
+                    <div class="submenu">
+                        <div class="submenu-items">
+                            <ul>
+                                <li>
+                                    <button id="abrigos" class="boton-menu boton-categoria">Abrigos</button>
+                                </li>
+                                <li>
+                                    <button id="camisetas" class="boton-menu boton-categoria">Camisetas</button>
+                                </li>
+                                <li>
+                                    <button id="pantalones" class="boton-menu boton-categoria">Pantalones</button>
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li><a class="a-contacto" href="#">Contacto</a></li>
+                <li>
+                    <a class="boton-menu boton-carrito" href="./carrito.html">
+                        <i class="fa-solid fa-cart-shopping"></i><span id="numerito" class="numerito">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div> 
+    <div class="containerlogin">
+        <div class="login">
+            <img src="./assets/img/loginimg.png" alt="loginimg" class="imglogin">
+            <h2>Iniciar Sesión</h2>
+            <form class="form">
+                <input type="email" name="email" id="email" placeholder="Ingresa tu Correo" required>
+                <input type="password" placeholder="Contraseña" id="password" required>
+                <input type="submit" value="Ingresar" class="btnlogin">
+            </form>
+        </div>
+        <div class="footer">
+            <a href="#">Olvidé mi Contraseña</a>
+            <p>No tenes cuenta? <a href="./register.html">Registrate!</a></p>
+        </div>
+    </div>
+</body>
+</html>
